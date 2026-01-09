@@ -188,7 +188,7 @@ p {
   margin: 15px 0;
 }
 .problem h4 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
 }
 .problem p{
@@ -253,3 +253,25 @@ margin: 10px;
   margin-bottom: 20px;
 }
   /* --======================= Think Section end ====================== */
+
+  /* ======================= Footer Section Start ====================== */
+  #footer-area{
+    margin-top: 60px;
+    padding: 30px;
+    background-color: #001931;
+  }
+  .footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #000000;
+  }
+  .social-area h3{
+    margin-bottom: 10px;
+  }
+  .copyright{
+    margin-top: 15px;
+    text-align: center;
+  }
+/* ======================= Footer Section End ====================== */
