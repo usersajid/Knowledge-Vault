@@ -231,3 +231,25 @@ margin: 10px;
   color: #469165;
 }
 /* ============ Solution Section End ======================*/
+
+/* --======================= Think Section Start ====================== */
+#think-area{
+  
+}
+.think-content{
+  padding: 50px 0;
+  background-color: #ebe5d4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.think-content p{
+  margin-bottom: 20px;
+  text-align: center;
+}
+.think-content a{
+  margin-bottom: 20px;
+}
+  /* --======================= Think Section end ====================== */
