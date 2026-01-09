@@ -197,3 +197,37 @@ margin: 5px 0;
 }
 
 /* ============ Problem Section End ======================*/
+
+/* ============ Solution Section Start ======================*/
+#solution-area{
+  padding: 50px 0;
+}
+.solution-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.solution-content{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 30px;
+width: 500px;
+}
+.solution-content h4{
+  color: #469165;
+  font-size: 16px;
+}
+.solution-content h2{
+  font-size: 40px;
+}
+.solution-content p{
+margin-bottom: 20px;
+}
+.solution-content span{
+margin: 10px;
+}
+.fa-circle-check{
+  color: #469165;
+}
+/* ============ Solution Section End ======================*/
