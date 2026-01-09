@@ -1,70 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Knowledge-Vault</title>
-    <!-- Favicon -->
-    <link
-      rel="icon"
-      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 640'%3E%3Cdefs%3E%3Cfilter id='g' x='-50%25' y='-50%25' width='200%25' height='200%25'%3E%3CfeGaussianBlur stdDeviation='15' result='c'/%3E%3CfeMerge%3E%3CfeMergeNode in='c'/%3E%3CfeMergeNode in='SourceGraphic'/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Cpath fill='%23FFD700' filter='url(%23g)' d='M424.5 355.1C449 329.2 464 294.4 464 256C464 176.5 399.5 112 320 112C240.5 112 176 176.5 176 256C176 294.4 191 329.2 215.5 355.1C236.8 377.5 260.4 409.1 268.8 448L371.2 448C379.6 409 403.2 377.5 424.5 355.1zM459.3 388.1C435.7 413 416 443.4 416 477.7L416 496C416 540.2 380.2 576 336 576L304 576C259.8 576 224 540.2 224 496L224 477.7C224 443.4 204.3 413 180.7 388.1C148 353.7 128 307.2 128 256C128 150 214 64 320 64C426 64 512 150 512 256C512 307.2 492 353.7 459.3 388.1zM272 248C272 261.3 261.3 272 248 272C234.7 272 224 261.3 224 248C224 199.4 263.4 160 312 160C325.3 160 336 170.7 336 184C336 197.3 325.3 208 312 208C289.9 208 272 225.9 272 248z'/%3E%3C/svg%3E"
-    />
 
-    <!-- Font Awesome Link -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Knowledge-Vault</title>
+  <!-- Favicon -->
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 640'%3E%3Cdefs%3E%3Cfilter id='g' x='-50%25' y='-50%25' width='200%25' height='200%25'%3E%3CfeGaussianBlur stdDeviation='15' result='c'/%3E%3CfeMerge%3E%3CfeMergeNode in='c'/%3E%3CfeMergeNode in='SourceGraphic'/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Cpath fill='%23FFD700' filter='url(%23g)' d='M424.5 355.1C449 329.2 464 294.4 464 256C464 176.5 399.5 112 320 112C240.5 112 176 176.5 176 256C176 294.4 191 329.2 215.5 355.1C236.8 377.5 260.4 409.1 268.8 448L371.2 448C379.6 409 403.2 377.5 424.5 355.1zM459.3 388.1C435.7 413 416 443.4 416 477.7L416 496C416 540.2 380.2 576 336 576L304 576C259.8 576 224 540.2 224 496L224 477.7C224 443.4 204.3 413 180.7 388.1C148 353.7 128 307.2 128 256C128 150 214 64 320 64C426 64 512 150 512 256C512 307.2 492 353.7 459.3 388.1zM272 248C272 261.3 261.3 272 248 272C234.7 272 224 261.3 224 248C224 199.4 263.4 160 312 160C325.3 160 336 170.7 336 184C336 197.3 325.3 208 312 208C289.9 208 272 225.9 272 248z'/%3E%3C/svg%3E" />
 
-    <!-- Link to the CSS file -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
+  <!-- Font Awesome Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
 
-  <body>
-    <!-- Header Section start -->
-    <header id="header">
-      <div class="container header-wrapper">
-        <div class="logo">
-          <img src="./assets/logo-navbar.png" alt="Knowledge Vault Logo" />
-        </div>
-        <nav class="navbar">
-          <ul>
-            <li><a href="#feature">Feature</a></li>
-            <li><a href="#how-it-works">How It Works</a></li>
-            <li><a href="#why-its-different">Why It's Different</a></li>
-          </ul>
-        </nav>
-        <div class="header-btn">
-          <a href="#" class="btn">Get Early Access</a>
-        </div>
+  <!-- Link to the CSS file -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Header Section start -->
+  <header id="header">
+    <div class="container header-wrapper">
+      <div class="logo">
+        <img src="./assets/logo-navbar.png" alt="Knowledge Vault Logo" />
       </div>
-    </header>
-    <!-- Header Section end -->
+      <nav class="navbar">
+        <ul>
+          <li><a href="#feature">Feature</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#why-its-different">Why It's Different</a></li>
+        </ul>
+      </nav>
+      <div class="header-btn">
+        <a href="#" class="btn">Get Early Access</a>
+      </div>
+    </div>
+  </header>
+  <!-- Header Section end -->
 
-    <!-- ========================= Hero Area Start =================== -->
-    <section id="hero-area">
-      <div class="container">
-        <div class="hero-content">
-          <span class="top-badge">
-            <i class="fa-solid fa-wand-magic-sparkles badge-icon"></i>
-            <h3>Your Second Brain</h3>
-          </span>
-          <h1>Architect Your Mind, <span>Don't Just Store Data.</span></h1>
-          <p>
-            Your brain is for processing, not storage. Offload your code
-            snippets, ideas, and research into a powerful system designed for
-            instant retrieval and connection.
-          </p>
-          <div class="button-wrapper">
-            <a href="#" class="btn"
-              >Deploy Your Vault
-              <i class="fa-solid fa-arrow-right"></i>
+  <!-- ========================= Hero Area Start =================== -->
+  <section id="hero-area">
+    <div class="container">
+      <div class="hero-content">
+        <span class="top-badge">
+          <i class="fa-solid fa-brain badge-icon"></i>
+          <h3>Your Second Brain</h3>
+        </span>
+        <h1>Architect Your Mind, <span>Don't Just Store Data.</span></h1>
+        <p>
+          Your brain is for processing, not storage. Offload your code
+          snippets, ideas, and research into a powerful system designed for
+          instant retrieval and connection.
+        </p>
+        <div class="button-wrapper">
+          <a href="#" class="btn">Deploy Your Vault
+            <i class="fa-solid fa-arrow-right"></i>
             <a href="#" class="btn transparent-btn">
-              <i class="fa-solid fa-play"></i>View Documentation</a
-            >
-          </div>
+              <i class="fa-solid fa-play"></i>View Documentation</a>
         </div>
       </div>
-    </section>
-  </body>
+    </div>
+  </section>
+  <!-- ========================= Hero Area End =================== -->
+
+  <!-- ========================= Problem Area Start =================== -->
+  <section id="problem-area">
+    <div class="container">
+      <div class="problem-content">
+        <h2>Your Brain Has a Data Leak.</h2>
+        <p>Without a proper architecture, 90% of your input is lost forever. Stop treating your mind like a temporary cache.</p>
+      </div>
+      <div class="problems-card">
+        <div class="problem">
+          <img src="./assets/Vector.png" alt="Vector">
+          <h4>Data Fragmentation</h4>
+          <p>Info lives across 10 apps, creating chaos instead of a knowledge base.</p>
+        </div>
+        <div class="problem">
+          <img src="./assets/Bookmarks.png" alt="Bookmarks">
+          <h4>The Link Graveyard</h4>
+          <p>Saving links without processing them is just digital hoarding, not learning.</p>
+        </div>
+        <div class="problem">
+          <img src="./assets/Brain.png" alt="Brain">
+          <h4>Siloed Intelligence</h4>
+          <p>Ideas remain isolated. You miss the "aha!" moments that come from connecting dots.</p>
+        </div>
+         <div class="problem">
+          <img src="./assets/info.png" alt="Info">
+          <h4>Systematic Memory Loss</h4>
+          <p>Without active recall, your hard-earned knowledge gets overwritten by noise.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ========================= Problem Area End =================== -->
+</body>
+
 </html>
