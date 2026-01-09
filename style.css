@@ -188,7 +188,7 @@ p {
   margin: 15px 0;
 }
 .problem h4 {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
 }
 .problem p{
@@ -233,9 +233,7 @@ margin: 10px;
 /* ============ Solution Section End ======================*/
 
 /* --======================= Think Section Start ====================== */
-#think-area{
-  
-}
+
 .think-content{
   padding: 50px 0;
   background-color: #ebe5d4;
